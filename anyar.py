@@ -12,7 +12,7 @@ def main():
     print("Selamat datang di toko kami!") 
     jumlah_pembelian = float(input('Masukkan jumlah pembelian Anda: '))
     total_biaya = hitung_total_biaya(jumlah_pembelian) 
-    print(f'Total biaya: {total_biaya}') 
+    print(f'Total biaya anda: ${total_biaya}') 
     print("Terima kasih telah berbelanja di toko kami!")
 
 if __name__ == '__main__': 
